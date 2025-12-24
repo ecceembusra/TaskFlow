@@ -119,8 +119,11 @@ Başlık ve açıklama üzerinden arama yapılabilir, etiketlere göre filtrelem
 Filtrelenmiş görevler CSV formatında dışa aktarılabilir.
 
 <p align="center">
-  <img src="images/pic3.JPG" width="75%" />
-  <img src="images/pic4.JPG" width="75%" />
+  <img src="images/pic3.JPG" width="85%" />
+</p>
+
+<p align="center">
+  <img src="images/pic4.JPG" width="85%" />
 </p>
 
 ---
@@ -162,7 +165,7 @@ gibi gelişmeler kolayca eklenebilir.
 ## 🚀 Canlı Demo
 
 🔗 **Uygulama Linki:**  
-https://taskflow-sayzx2piagjssu2767vbzd.streamlit.app/  
+👉🏻 https://taskflow-sayzx2piagjssu2767vbzd.streamlit.app/  👈🏻
 *(Streamlit Community Cloud üzerinde deploy edilmiştir)*
 
 > Linke sahip olan herkes uygulamayı görüntüleyebilir. Giriş gerekmez.
