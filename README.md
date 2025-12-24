@@ -96,6 +96,35 @@ Linke sahip olan herkes uygulamayı görüntüleyebilir ve etkileşime girebilir
 Herhangi bir giriş veya kurulum gerekmez.
 
 ---
+## 🖥️ Uygulama Arayüzü
+
+### 📌 Kanban Board Genel Görünüm
+Backlog, Doing ve Done kolonlarından oluşan ana Kanban ekranı.  
+Görevler durumlarına göre kolayca yönetilebilir ve taşınabilir.
+
+![Kanban Board](images/pic1.JPG)
+
+---
+
+### ➕ Görev Ekleme ve Düzenleme
+Kullanıcılar başlık, açıklama, etiket, öncelik ve bitiş tarihi bilgileriyle yeni görevler ekleyebilir.  
+Mevcut görevler güncellenebilir veya silinebilir.
+
+![Task Ekleme](images/pic2.JPG)
+
+---
+
+### 🔍 Arama, Filtreleme ve CSV Dışa Aktarma
+Başlık ve açıklama üzerinden arama yapılabilir, etiketlere göre filtreleme uygulanabilir.  
+Filtrelenmiş görevler CSV formatında dışa aktarılabilir.
+
+<p align="center">
+  <img src="images/pic3.JPG" width="75%" />
+  <img src="images/pic4.JPG" width="75%" />
+</p>
+
+---
+
 
 ## 🔐 Demo Ortamı Hakkında
 
