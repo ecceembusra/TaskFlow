@@ -235,8 +235,8 @@ streamlit run app.py
 🔐 Çok Kullanıcılı Demo Notu
 
 Bu uygulama şu anda paylaşımlı bir demo ortamı olarak çalışmaktadır:
-	•	Tüm kullanıcılar aynı görevleri görür
-	•	Yapılan değişiklikler herkes için geçerlidir
+-	*Tüm kullanıcılar aynı görevleri görür*
+-	*Yapılan değişiklikler herkes için geçerlidir*
 
 Bu yapı bilinçli olarak demo amaçlı tercih edilmiştir.
 İleride kullanıcı bazlı yetkilendirme ve özel board’lar eklenebilir.
