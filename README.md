@@ -38,13 +38,13 @@ https://taskflow-sayzx2piagjssu2767vbzd.streamlit.app/
 ---
 
 ## 🧠 Proje Yapısı
-
+```bash
 taskflow-kanban/
-│
 ├── app.py               # Ana Streamlit uygulaması
-├── tasks.db             # SQLite veritabanı (otomatik oluşur)
+├── tasks.db             # SQLite veritabanı (uygulama çalışınca otomatik oluşur)
 ├── requirements.txt     # Python bağımlılıkları
 └── README.md            # Proje dokümantasyonu
+```
 
 ---
 
