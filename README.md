@@ -2,12 +2,131 @@
 TaskFlow is a lightweight web-based Kanban board built with Streamlit and SQLite.  It allows users to manage tasks with WIP limits, deadlines, tags, and multiple projects.
 
 # 🗂️ TaskFlow — Web Kanban Uygulaması
+## 🧠 Proje Açıklaması
 
-**TaskFlow**, görev ve iş takibini kolaylaştırmak için geliştirilmiş,  
-**Streamlit** ve **SQLite** kullanılarak oluşturulmuş **web tabanlı bir Kanban uygulamasıdır**.
+**TaskFlow**, bireysel veya küçük ekiplerin günlük iş ve görevlerini düzenli bir şekilde takip edebilmesi için geliştirilmiş,
+**web tabanlı bir Kanban yönetim uygulamasıdır**.
 
-Uygulama; görevleri **Backlog**, **Doing** ve **Done** aşamalarında yönetmeyi sağlar ve
-gerçek hayatta kullanılabilecek bir yapı sunar. Aynı zamanda portföy amaçlı güçlü bir demo projedir.
+Uygulamanın temel amacı; yapılacak işleri görünür hale getirmek, önceliklendirmek ve
+iş akışını sade ama etkili bir yapı üzerinden yönetmektir.
+Bu sayede kullanıcılar hem ne üzerinde çalıştıklarını hem de sırada ne olduğunu kolayca takip edebilir.
+
+---
+
+## 🧩 Nasıl Çalışır?
+
+TaskFlow, klasik Kanban metodolojisini temel alır ve görevleri üç ana aşamada ele alır:
+
+- **Backlog**  
+  Henüz başlanmamış, yapılması planlanan görevler
+
+- **Doing**  
+  Üzerinde aktif olarak çalışılan görevler
+
+- **Done**  
+  Tamamlanmış görevler
+
+Kullanıcılar görevleri bu aşamalar arasında taşıyarak iş akışını görsel olarak yönetir.
+
+---
+
+## ✨ Temel Özellikler
+
+### 📌 Görev Yönetimi (CRUD)
+- Yeni görev eklenebilir
+- Mevcut görevler düzenlenebilir
+- Görevler silinebilir
+- Görevler Backlog / Doing / Done durumları arasında taşınabilir
+
+---
+
+### 🔢 Öncelik Seviyesi
+Her görev için **1 ile 5 arasında** bir öncelik seviyesi belirlenebilir.
+Bu sayede acil veya önemli işler kolayca ayırt edilir.
+
+---
+
+### 📅 Bitiş Tarihi (Due Date)
+Görevlere bitiş tarihi atanabilir.
+Bu özellik, zaman yönetimini güçlendirir ve gecikme riskini azaltır.
+
+---
+
+### 🏷️ Etiket Sistemi
+Görevler etiketlenebilir (örneğin: `bug`, `feature`, `ux`, `acil`).
+Etiketler sayesinde görevler kategorilere ayrılır ve filtrelenebilir.
+
+---
+
+### 🔍 Arama ve Filtreleme
+- Görev başlığı ve açıklaması üzerinden arama yapılabilir
+- Etiketlere göre filtreleme uygulanabilir
+- Büyük görev listelerinde hızlı erişim sağlanır
+
+---
+
+### 🎯 WIP (Work In Progress) Limiti
+Doing kolonunda aynı anda bulunabilecek maksimum görev sayısı sınırlandırılabilir.
+Bu özellik, odaklanmayı artırmayı ve iş yükünü dengede tutmayı amaçlar.
+
+---
+
+### 💾 Kalıcı Veri Saklama
+Tüm görevler **SQLite veritabanında** saklanır.
+Sayfa yenilense veya uygulama kapatılsa bile veriler kaybolmaz.
+
+---
+
+### 📤 Veri Dışa Aktarma
+Filtrelenmiş veya tüm görevler **CSV formatında** dışa aktarılabilir.
+Bu sayede görevler raporlama veya analiz amaçlı kullanılabilir.
+
+---
+
+### 📝 Proje Yönetimi
+- Proje adı sidebar üzerinden yeniden adlandırılabilir
+- Uygulama, tek bir proje etrafında sade bir yapı sunar
+- Demo ve portföy kullanımı için idealdir
+
+---
+
+### 🌐 Web Üzerinden Paylaşılabilir Yapı
+Uygulama **Streamlit Community Cloud** üzerinde deploy edilmiştir.
+Linke sahip olan herkes uygulamayı görüntüleyebilir ve etkileşime girebilir.
+Herhangi bir giriş veya kurulum gerekmez.
+
+---
+
+## 🔐 Demo Ortamı Hakkında
+
+TaskFlow şu anda **paylaşımlı bir demo ortamı** olarak çalışmaktadır.
+Bu nedenle:
+- Tüm kullanıcılar aynı görevleri görür
+- Yapılan değişiklikler herkes için geçerlidir
+
+Bu yapı, uygulamanın gerçek kullanım senaryosunu göstermek amacıyla bilinçli olarak tercih edilmiştir.
+
+---
+
+## 🎯 Kimler İçin Uygun?
+
+- Günlük görevlerini düzenlemek isteyen bireyler
+- Kanban metodolojisini öğrenmek isteyenler
+- Python & Streamlit tabanlı bir web uygulaması örneği arayanlar
+- Portföyünde canlı demo görmek isteyen recruiter’lar
+
+---
+
+## 🧩 Geliştirme Perspektifi
+
+TaskFlow, sade ve okunabilir bir mimari ile geliştirilmiştir.
+İlerleyen aşamalarda:
+- Kullanıcı bazlı yetkilendirme
+- Çoklu proje desteği
+- Analitik ve raporlama özellikleri
+- Modüler kod yapısı
+
+gibi gelişmeler kolayca eklenebilir.
 
 ---
 
