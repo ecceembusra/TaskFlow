@@ -1,7 +1,8 @@
-# TaskFlow
-TaskFlow is a lightweight web-based Kanban board built with Streamlit and SQLite.  It allows users to manage tasks with WIP limits, deadlines, tags, and multiple projects.
+# 🗂️ TaskFlow <sub>Web Kanban Uygulaması</sub>
 
-# 🗂️ TaskFlow — Web Kanban Uygulaması
+
+_Streamlit ve SQLite ile geliştirilmiş hafif, sade ve paylaşılabilir görev yönetim uygulaması_
+
 ## 🧠 Proje Açıklaması
 
 **TaskFlow**, bireysel veya küçük ekiplerin günlük iş ve görevlerini düzenli bir şekilde takip edebilmesi için geliştirilmiş,
