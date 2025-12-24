@@ -216,14 +216,6 @@ git clone https://github.com/ecembusra/taskflow-kanban.git
 cd taskflow-kanban
 ```
 
-## ⚙️ Kurulum ve Lokal Çalıştırma
-
-Repository’yi klonla:
-```bash
-git clone https://github.com/ecembusra/taskflow-kanban.git
-cd taskflow-kanban
-```
-
 (Senaryo önerisi) Sanal ortam oluştur
 ``` bash
 python -m venv venv
